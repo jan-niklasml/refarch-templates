@@ -49,6 +49,15 @@
             >Javascript-Wiki</a
           >
         </div>
+        <div>
+          <a
+            href="https://wiki.muenchen.de/anwendungsentwicklung/index.php/JavaScript-Themen"
+            target="_blank"
+            rel="noopener noreferrer"
+            @click="documentationClicked = true"
+            >Weiteres Wiki</a
+          >
+        </div>
       </v-col>
     </v-row>
     <yes-no-dialog
